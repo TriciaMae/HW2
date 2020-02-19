@@ -11,7 +11,8 @@
 
         wait.Stop()
     End Sub
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
         Do
             '0
             Hold(1000)
@@ -72,11 +73,119 @@
 
             '3
             Hold(1000)
-            P11.BackColor = Color.White
-            P12.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P13.BackColor = Color.Red
             P16.BackColor = Color.White
             P20.BackColor = Color.Red
 
+            '4
+            Hold(1000)
+            P1.BackColor = Color.White
+            P2.BackColor = Color.White
+            P5.BackColor = Color.White
+            P7.BackColor = Color.Red
+            P9.BackColor = Color.Red
+            P10.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P19.BackColor = Color.Red
+            P20.BackColor = Color.White
+            P21.BackColor = Color.White
+            P22.BackColor = Color.White
+            P23.BackColor = Color.White
+            P24.BackColor = Color.Red
+            P25.BackColor = Color.White
+
+            '5
+            Hold(1000)
+            P1.BackColor = Color.White
+            P2.BackColor = Color.White
+            P5.BackColor = Color.White
+            P7.BackColor = Color.Red
+            P9.BackColor = Color.Red
+            P10.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P19.BackColor = Color.Red
+            P20.BackColor = Color.White
+            P21.BackColor = Color.White
+            P22.BackColor = Color.White
+            P23.BackColor = Color.White
+            P24.BackColor = Color.Red
+            P25.BackColor = Color.White
+
+            '6
+            Hold(1000)
+            P1.BackColor = Color.White
+            P2.BackColor = Color.White
+            P5.BackColor = Color.White
+            P7.BackColor = Color.Red
+            P9.BackColor = Color.Red
+            P10.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P19.BackColor = Color.Red
+            P20.BackColor = Color.White
+            P21.BackColor = Color.White
+            P22.BackColor = Color.White
+            P23.BackColor = Color.White
+            P24.BackColor = Color.Red
+            P25.BackColor = Color.White
+
+            '7
+            Hold(1000)
+            P1.BackColor = Color.White
+            P2.BackColor = Color.White
+            P5.BackColor = Color.White
+            P7.BackColor = Color.Red
+            P9.BackColor = Color.Red
+            P10.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P19.BackColor = Color.Red
+            P20.BackColor = Color.White
+            P21.BackColor = Color.White
+            P22.BackColor = Color.White
+            P23.BackColor = Color.White
+            P24.BackColor = Color.Red
+            P25.BackColor = Color.White
+
+            '8
+            Hold(1000)
+            P1.BackColor = Color.White
+            P2.BackColor = Color.White
+            P5.BackColor = Color.White
+            P7.BackColor = Color.Red
+            P9.BackColor = Color.Red
+            P10.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P19.BackColor = Color.Red
+            P20.BackColor = Color.White
+            P21.BackColor = Color.White
+            P22.BackColor = Color.White
+            P23.BackColor = Color.White
+            P24.BackColor = Color.Red
+            P25.BackColor = Color.White
+
+            '9
+            Hold(1000)
+            P1.BackColor = Color.White
+            P2.BackColor = Color.White
+            P5.BackColor = Color.White
+            P7.BackColor = Color.Red
+            P9.BackColor = Color.Red
+            P10.BackColor = Color.White
+            P11.BackColor = Color.Red
+            P12.BackColor = Color.Red
+            P19.BackColor = Color.Red
+            P20.BackColor = Color.White
+            P21.BackColor = Color.White
+            P22.BackColor = Color.White
+            P23.BackColor = Color.White
+            P24.BackColor = Color.Red
+            P25.BackColor = Color.White
         Loop While True
     End Sub
 End Class
